@@ -1028,7 +1028,7 @@ do
             )
         end
         -- // Esp Preview
-        do
+        --[[do
             window.VisualPreview = {
                 Size = {X = 0, Y = 0},
                 Color1 = Color3.fromRGB(0, 255, 0),
@@ -1528,7 +1528,7 @@ do
                 window.VisualPreview.Components.HealthBar["Outline"] = preview_heatlhbaroutline
                 window.VisualPreview.Components.HealthBar["Box"] = preview_heatlhbar
                 window.VisualPreview.Components.HealthBar["Value"] = preview_healthbarvalue
-            end
+            end--]]
             --
             do -- New Drawings
                 local NewDrawings = {}
